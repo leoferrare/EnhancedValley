@@ -6,7 +6,7 @@
       "Target": "Data/BigCraftables",
       "Entries": {
         "Darkiriq30.EnormousChest": {
-          "Name": "Enormous Chest",
+          "Name": "Darkiriq30.EnormousChest",
           "DisplayName": "{{i18n: EnormousChest.name}}",
           "Description": "{{i18n: EnormousChest.description}}",
           "Texture": "Darkiriq30.EnormousChest/Texture",

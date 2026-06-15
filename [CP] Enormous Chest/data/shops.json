@@ -13,7 +13,8 @@
           "Id": "Darkiriq30.EnormousChest",
           "ItemId": "(BC)Darkiriq30.EnormousChest",
           "Price": 10000,
-          "IsRecipe": true
+          "IsRecipe": true,
+          "Condition": "PLAYER_HAS_CRAFTING_RECIPE Current \"Big Chest\""
         }
       }
     }

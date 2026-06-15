@@ -13,6 +13,11 @@
             "UniqueID": "furyx639.ExpandedStorage",
             "IsRequired": true,
             "MinimumVersion": "3.3.0"
-        }
+        },
+        {
+            "UniqueID": "Darkiriq30.CustomChestSizeMod",
+            "IsRequired": true,
+            "MinimumVersion": "1.0.0"
+  }
     ]
 }
