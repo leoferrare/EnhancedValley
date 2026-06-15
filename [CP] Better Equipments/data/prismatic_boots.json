@@ -1,0 +1,29 @@
+{
+  "Changes": [
+    // Load Prismatic Boots Texture
+    {
+      "LogName": "Load Prismatic Boots Texture",
+      "Action": "Load",
+      "Target": "Darkiriq30.BetterEquipments/PrismaticBoots",
+      "FromFile": "assets/PrismaticBoots.png"
+    },
+    // Register Prismatic Boots
+    {
+      "LogName": "Add Prismatic Boots Object",
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "Entries": {
+        "Darkiriq30.PrismaticBoots": "Prismatic Boots/{{i18n:PrismaticBoots.description}}/0/6/6/0/{{i18n:PrismaticBoots.name}}/Characters\\Farmer\\shoeColors/0/Darkiriq30.BetterEquipments\\PrismaticBoots"
+      }
+    },
+    // Register Prismatic Boots Crafting Recipe
+    {
+      "LogName": "Add Prismatic Boots Crafting Recipe",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Prismatic Boots": "74 1 337 10 848 10/Home/Darkiriq30.PrismaticBoots/false/Combat 10/{{i18n:PrismaticBoots.name}}"
+      }
+    }
+  ]
+}

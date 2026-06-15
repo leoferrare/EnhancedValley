@@ -1,0 +1,15 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+    // Include prismatic ring data and texture load
+    {
+      "Action": "Include",
+      "FromFile": "data/prismatic_ring.json"
+    },
+    // Include prismatic boots data and texture load
+    {
+      "Action": "Include",
+      "FromFile": "data/prismatic_boots.json"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "Better Equipments",
+    "Author": "Darkiriq30",
+    "Version": "1.0.0",
+    "Description": "Modify existing rings to be more impactful and add new combat items.",
+    "UniqueID": "Darkiriq30.BetterEquipments",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

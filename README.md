@@ -21,6 +21,13 @@ A Content Patcher pack that adds the **Enormous Chest**, which serves as an upgr
 - **Obtaining:** The recipe can be purchased from Robin at the Carpenter's Shop for 10,000g.
 - **Unlock Condition:** The recipe is gated behind player progression and will only appear in Robin's shop after you have purchased/learned the vanilla **Big Chest** recipe.
 
+### 3. [CP] Better Equipments (Content Patcher Mod)
+A Content Patcher pack that registers custom, high-tier combat equipment:
+- **Prismatic Ring**: A custom ring radiating with prismatic energy, registered in `Data/Objects` (Type: `Ring`).
+  - **Crafting Recipe:** 1 Prismatic Shard, 5 Iridium Bars, and 10 Refined Quartz (unlocks at **Combat Level 10**).
+- **Prismatic Boots**: Custom boots forged from prismatic shards, registered in `Data/Boots` (stats: +6 Defense, +6 Immunity).
+  - **Crafting Recipe:** 1 Prismatic Shard, 10 Iridium Bars, and 10 Cinder Shards (unlocks at **Combat Level 10**).
+
 ## Authors
 - [**Darkiriq30**](https://github.com/leoferrare) - Mods
 - [**YukiRubi**](https://github.com/YukiRubi) - Mods, Assets

@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        // Load Prismatic Ring Texture
+        {
+            "LogName": "Load Prismatic Ring Texture",
+            "Action": "Load",
+            "Target": "Darkiriq30.BetterEquipments/PrismaticRing",
+            "FromFile": "assets/PrismaticRing.png"
+        },
+        // Register Prismatic Ring
+        {
+            "LogName": "Add Prismatic Ring Object",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "Darkiriq30.PrismaticRing": {
+                    "Name": "Prismatic Ring",
+                    "DisplayName": "{{i18n:PrismaticRing.name}}",
+                    "Description": "{{i18n:PrismaticRing.description}}",
+                    "Type": "Ring",
+                    "Category": -96,
+                    "Price": 5000,
+                    "Texture": "Darkiriq30.BetterEquipments/PrismaticRing",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        // Register Prismatic Ring Crafting Recipe
+        {
+            "LogName": "Add Prismatic Ring Crafting Recipe",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Prismatic Ring": "74 1 337 5 338 10/Home/Darkiriq30.PrismaticRing/false/Combat 10/{{i18n:PrismaticRing.name}}"
+            }
+        },
+        // Prismatic Ring Buff
+        {
+            "Action": "EditData",
+            "Target": "aedenthorn.BuffFramework/dictionary",
+            "Entries": {
+                "aedenthorn.PrismaticRingBuff": {
+                    "ring": "Prismatic Ring",
+                    "maxStamina": 50,
+                    "speed": 3,
+                    "defense": 3,
+                    "attack": 3,
+                    "source": "aedenthorn.PrismaticRingBuff",
+                    "displaySource": "Prismatic Ring",
+                    "description": "You feel stronger."
+                }
+            }
+        }
+    ]
+}
