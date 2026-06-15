@@ -22,5 +22,5 @@ A Content Patcher pack that adds the **Enormous Chest**, which serves as an upgr
 - **Unlock Condition:** The recipe is gated behind player progression and will only appear in Robin's shop after you have purchased/learned the vanilla **Big Chest** recipe.
 
 ## Authors
-- **Darkiriq30** - Mods
-- **YukiRubi** - Mods, Assets
+- [**Darkiriq30**](https://github.com/leoferrare) - Mods
+- [**YukiRubi**](https://github.com/YukiRubi) - Mods, Assets
