@@ -1,6 +1,20 @@
 {
-  "PrismaticRing.name": "Prismatic Ring",
-  "PrismaticRing.description": "A ring radiating with prismatic energy.",
-  "PrismaticBoots.name": "Prismatic Boots",
-  "PrismaticBoots.description": "Boots forged from prismatic shards."
+  "Adventurer'sPrismaticRing.name": "Adventurer's Prismatic Ring",
+  "Adventurer'sPrismaticRing.description": "A ring radiating with prismatic energy.",
+  
+  
+  "WingedBoots.name": "Winged Boots",
+  "WingedBoots.description": "Boots forged from prismatic shards.",
+
+
+  "Volcano'sPrismaticRing.name": "Volcano's Prismatic Ring",
+  "Volcano'sPrismaticRing.description": "A ring radiating with prismatic energy.",
+
+
+  "CloudShoes.name": "Cloud Shoes",
+  "CloudShoes.description": "Shoes forged from prismatic shards."
+
+
 }
+
+

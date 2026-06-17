@@ -1,28 +1,64 @@
 {
   "Changes": [
-    // Load Prismatic Boots Texture
+    // Load Winged Boots Texture
     {
-      "LogName": "Load Prismatic Boots Texture",
+      "LogName": "Load Winged Boots Texture",
       "Action": "Load",
-      "Target": "Darkiriq30.BetterEquipments/PrismaticBoots",
-      "FromFile": "assets/PrismaticBoots.png"
+      "Target": "Darkiriq30.BetterEquipments/WingedBoots",
+      "FromFile": "assets/WingedBoots.png"
     },
-    // Register Prismatic Boots
+    // Register Winged Boots
     {
-      "LogName": "Add Prismatic Boots Object",
+      "LogName": "Add Winged Boots Object",
       "Action": "EditData",
       "Target": "Data/Boots",
       "Entries": {
-        "Darkiriq30.PrismaticBoots": "Prismatic Boots/{{i18n:PrismaticBoots.description}}/0/6/6/0/{{i18n:PrismaticBoots.name}}/Characters\\Farmer\\shoeColors/0/Darkiriq30.BetterEquipments\\PrismaticBoots"
+        "Darkiriq30.WingedBoots": "Winged Boots/{{i18n:WingedBoots.description}}/0/6/6/0/{{i18n:WingedBoots.name}}/Characters\\Farmer\\shoeColors/0/Darkiriq30.BetterEquipments\\WingedBoots"
       }
     },
-    // Register Prismatic Boots Crafting Recipe
+    // Register Winged Boots Boots Crafting Recipe
     {
-      "LogName": "Add Prismatic Boots Crafting Recipe",
+      "LogName": "Add Winged Boots Crafting Recipe",
       "Action": "EditData",
       "Target": "Data/CraftingRecipes",
       "Entries": {
-        "Prismatic Boots": "74 1 337 10 848 10/Home/Darkiriq30.PrismaticBoots/false/Combat 10/{{i18n:PrismaticBoots.name}}"
+        "Winged Boots": "(B)514 1 444 8 566 4 769 100 439 1 74 1 797 1/Home/Darkiriq30.WingedBoots/false/Combat 10/{{i18n:WingedBoots.name}}"
+      }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    // Load Cloud shoes Texture
+    {
+      "LogName": "Load Cloud shoes Texture",
+      "Action": "Load",
+      "Target": "Darkiriq30.BetterEquipments/CloudShoes",
+      "FromFile": "assets/CloudShoes.png"
+    },
+    // Register Cloud Shoes
+    {
+      "LogName": "Add Cloud Shoes Object",
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "Entries": {
+        "Darkiriq30.CloudShoes": "Cloud Shoes/{{i18n:CloudShoes.description}}/0/6/6/0/{{i18n:CloudShoes.name}}/Characters\\Farmer\\shoeColors/0/Darkiriq30.BetterEquipments\\CloudShoes"
+      }
+    },
+    // Register Cloud Shoes Crafting Recipe
+    {
+      "LogName": "Add Cloud Shoes Crafting Recipe",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Cloud Shoes": "(B)504 1 446 4 440 4 551 4 768 100 74 1 797 1/Home/Darkiriq30.CloudShoes/false/Combat 10/{{i18n:CloudShoes.name}}"
       }
     }
   ]
